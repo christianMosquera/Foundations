@@ -1,4 +1,4 @@
-# Computer Architecture
+# CPU and Memory
 A very basic overview of computer architecture. By no means am I an expert on this subject, but I try my best to explain this subject at a shallow level.
 
 ## CPU (Control Processing Unit)
