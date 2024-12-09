@@ -1,10 +1,10 @@
-# Operating Systems
 
-## Processes
-### <ins>What is a Process</ins>
+
+# Processes
+## What is a Process
 A process is a running instance of a program. When you execute a program, the operating system: loads the program’s code into memory, allocates resources (CPU, memory, file descriptors), and creates a process to manage the execution of the program.
 
-### <ins>Key Components of a Process</ins>
+## Key Components of a Process
 1. Code: The instructions of the program
 2. Data: Static variables, constants, and global variables
 3. Heap: Dynamically allocated memory
@@ -12,7 +12,7 @@ A process is a running instance of a program. When you execute a program, the op
 5. Registers: The CPU registers used during execution
 6. Program Counter (PC): Stores the next instruction to execute
 
-### <ins>Process States</ins>
+## Process States
 A process goes through multiple states during its lifecycle. The most common are:
 1. New: The process is being created
 2. Ready: The process is loaded into memory and waiting to be executed
@@ -20,7 +20,7 @@ A process goes through multiple states during its lifecycle. The most common are
 4. Blocked/Waiting: The process is waiting for an event
 5. Terminated: The process has finished execution
 
-### <ins>Process Context Switching</ins>
+## Process Context Switching
 Since modern computers execute multiple processes, the CPU must switch between these processes to ensure multitasking. This is called context switching.
 
 Steps in a context switch:
@@ -30,7 +30,7 @@ Steps in a context switch:
 
 This operations is managed by the operating systems kernel and is essential for multitasking
 
-### <ins>Process Control Block (PCB)</ins>
+## Process Control Block (PCB)
 The Process Control Block is a data structure in the OS that stores information about a process. It contains:
 - Process ID (PID): An unique identifier for the process
 - Process State: The state of the process, running, ready, etc
@@ -38,7 +38,7 @@ The Process Control Block is a data structure in the OS that stores information 
 - Memory Info: Details about memory allocation (stack, heap, etc)
 - I/O Status: Open files and devices being used
 
-### <ins>Practical Example</ins>
+## Practical Example
 Running the ls command in linux
 
 1. Execution:
