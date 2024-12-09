@@ -22,6 +22,18 @@ Memory management is the process of controlling and coordinating computer memory
     - Maintains mappings for each process.
   
 ## Virtual Memory In Depth
+### <ins>Address Spaces</ins>
+TODO
+### <ins>Address Translation</ins>
+TODO
+### <ins>Segmentation</ins>
+TODO
+### <ins>Free Space Management</ins>
+TODO
+### <ins>Paging</ins>
+TODO
+### <ins>TLBs</ins>
+TODO
 1. Goals of Virtual Memory:
     - **Transparency**: How can the OS implement virtual memory so that it is invisible to the running program. The running program should not be aware that memory is being virtualized. It should act as if it has its own private physical memory. From the running programs perspective, it looks like its address space starts at memory address 0, but in reality it is being translated into a physical address.
     - **Efficiency**: The OS should strive to make virtual memory efficient in both time and space. In order to implement this the OS has to rely on hardware support, for example TLBs
